@@ -12,4 +12,24 @@ Went back to week 2 work with wget
     not sure how to get rid of this and access the full 62000 results
     I'm worried that would be overwhelming to parse with my current skillset so I'll stick to 20 for now
   Converted to csv file with online converter
-  
+  Once in Excel I removed unnecessary columns
+    Would later realise I only deleted the data in the columns, not the column itself
+    Fixed that in OpenRefine
+  Opened csv in OpenRefine
+    Cleaned up file buy trimming whitespace, getting rid of empty columns
+    Clusters were minimally useful
+      In order to get it to pick up any similarities, I had to open up the parameters
+      Rather than clustering based on the word [volume], which appeared for every entry
+      I selected a cell, edited as needed and used the 'apply to all identical cells' function
+   Exported back into a more manageable csv
+   Opened in Excel
+    Worked to get sum totals of the chosen keyword for each publication
+    Shown adjacent to first instance of each publication appearing on list
+    Also threw in total instances of chosen keyword
+    Added simple visualisation based on instances vs publication
+    Saved as excel workbook
+   Upload to voyant
+    Played with different visualisation tools
+    Realised I do not have the chosen keyword 'Hockey' anywhere in my completed visualisation
+      Needed to zoom out a bit more throughought the process to catch this
+   Skipped final part based on week 5 due to time constraints
